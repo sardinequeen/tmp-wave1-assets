@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twenty-One — Tin Full of Trouble | Sardine Queen Games</title>
+<meta name="description" content="Twenty-One: the pass-the-phone drinking game for the first legal night out. 95+ cards, one phone, no app. Sip 30 days or Spill 90 days. 21+.">
+<!--
+  TFOT SALES PAGE — Twenty-One tin (SIP + SPILL, generated from the Haunted Court page 2026-10-01)
+  Sip  $24 / 30 days: https://checkout.sardinequeen.com/twenty-one-sip/
+  Spill $44 / 90 days: https://checkout.sardinequeen.com/twenty-one-spill/
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Great+Vibes&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --accent:#b0485a; --accent2:#C9A961; --paper-tint:rgba(176,72,90,0.12);
+    --pink:#b0485a; --gold:#C9A961; --gold-lt:#e6d39c;
+    --cream:#f6ecdd; --ink:#0a0608; --panel:#1A0511; --line:rgba(212,175,55,0.30);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:
+      radial-gradient(1100px 600px at 50% -8%, var(--paper-tint), transparent 60%),
+      radial-gradient(900px 520px at 88% 8%, rgba(212,175,55,0.10), transparent 55%),
+      radial-gradient(900px 520px at 10% 100%, rgba(138,154,123,.16), transparent 55%),
+      #0f0309;
+    color:var(--cream); font-family:'Manrope',sans-serif; line-height:1.6;
+    -webkit-font-smoothing:antialiased; overflow-x:hidden;
+  }
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px}
+  a{color:inherit}
+  .btn{
+    display:inline-block; font-family:'Manrope',sans-serif; font-weight:800; letter-spacing:.04em;
+    text-decoration:none; cursor:pointer; border:none; border-radius:999px;
+    padding:16px 30px; font-size:15px; transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .btn-primary{background:linear-gradient(120deg,var(--pink),#722F37); color:#fff;
+    box-shadow:0 12px 30px -8px rgba(176,72,90,.5)}
+  .btn-gold{background:linear-gradient(120deg,var(--gold-lt),var(--gold)); color:#1a0f06;
+    box-shadow:0 12px 30px -8px rgba(212,175,55,.5)}
+  .btn:hover{transform:translateY(-3px)}
+  .eyebrow{font-size:11px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-lt);font-weight:700}
+
+  header{text-align:center;padding:54px 0 44px;position:relative}
+  .crest{font-size:46px;filter:drop-shadow(0 4px 18px rgba(176,72,90,.5));animation:rise .7s ease both}
+  .hero-logo{width:min(340px,80%);height:auto;margin:0 auto 4px;display:block;border-radius:50%;
+    filter:drop-shadow(0 10px 30px rgba(176,72,90,.5));animation:rise .7s ease both}
+  .kicker{margin-top:10px;animation:rise .7s .05s ease both}
+  .title{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(40px,9vw,84px);line-height:.95;
+    margin:8px 0 4px;background:linear-gradient(180deg,#fff7ea,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent;
+    animation:rise .7s .1s ease both}
+  .tagline{font-family:'Great Vibes',cursive;color:var(--pink);font-size:clamp(28px,6vw,46px);line-height:1;margin-bottom:16px;animation:rise .7s .15s ease both}
+  .hook{max-width:560px;margin:0 auto 26px;font-size:clamp(16px,2.4vw,19px);color:rgba(246,236,221,.85);animation:rise .7s .2s ease both}
+  .hero-cta{animation:rise .7s .25s ease both}
+  .court-line{margin-top:22px;font-style:italic;font-family:'Playfair Display',serif;color:rgba(246,236,221,.55);font-size:14px;animation:rise .7s .3s ease both}
+  @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+  .divider{height:1px;width:180px;margin:0 auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+
+  .strip{text-align:center;padding:34px 0;font-family:'Playfair Display',serif;font-style:italic;
+    font-size:clamp(20px,3.6vw,30px);color:var(--cream)}
+  .strip b{color:var(--pink);font-style:normal;font-weight:700}
+
+  section{padding:46px 0}
+  .sec-title{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(28px,5vw,40px);text-align:center;color:#fff7ea;margin-bottom:6px}
+  .sec-sub{text-align:center;color:rgba(246,236,221,.6);margin-bottom:34px;font-size:15px}
+
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .step{background:linear-gradient(180deg,var(--panel),#0d030a);border:1px solid var(--line);border-radius:16px;padding:24px 20px;text-align:center}
+  .step .n{width:42px;height:42px;border-radius:50%;margin:0 auto 12px;display:flex;align-items:center;justify-content:center;
+    font-family:'Playfair Display',serif;font-weight:900;font-size:20px;color:#1a0f06;background:linear-gradient(120deg,var(--gold-lt),var(--gold))}
+  .step h3{font-family:'Playfair Display',serif;font-size:19px;color:var(--gold-lt);margin-bottom:6px}
+  .step p{font-size:14px;color:rgba(246,236,221,.8)}
+
+  .feat{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;max-width:780px;margin:0 auto}
+  .f{display:flex;gap:12px;align-items:flex-start;background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:13px;padding:16px 18px}
+  .f .ic{font-size:22px;flex:none}
+  .f p{font-size:14.5px}
+  .f b{color:var(--gold-lt)}
+
+  /* —— TWO TIERS —— */
+  #tiers{padding-top:30px}
+  .tiers{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;max-width:760px;margin:0 auto;align-items:stretch}
+  .tier{position:relative;max-width:360px;margin:0 auto;width:100%;background:linear-gradient(180deg,var(--panel),#0d030a);border:1px solid var(--gold);border-radius:20px;padding:34px 28px 30px;text-align:center;box-shadow:0 26px 50px -22px rgba(0,0,0,.85)}
+  .tier h3{font-family:'Playfair Display',serif;font-weight:900;font-size:32px;color:#fff7ea}
+  .tier .price{font-family:'Playfair Display',serif;font-weight:900;font-size:58px;color:var(--gold-lt);line-height:1;margin:8px 0 2px}
+  .tier .window{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--pink);font-weight:700;margin-bottom:16px}
+  .tier .blurb{font-size:14.5px;color:rgba(246,236,221,.82);margin-bottom:20px}
+  .tier .btn{width:100%}
+  .tier.spill{border-color:var(--pink);box-shadow:0 0 0 1px rgba(176,72,90,.5),0 26px 50px -22px rgba(0,0,0,.85)}
+  .tier .flag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:#1a0f06;background:linear-gradient(120deg,var(--gold-lt),var(--gold));padding:6px 14px;border-radius:999px}
+  .tier .per{font-size:12px;color:rgba(246,236,221,.5);margin-top:-2px;margin-bottom:12px}
+  @media (max-width:640px){.tiers{grid-template-columns:1fr;gap:26px}}
+  .same-note{text-align:center;max-width:560px;margin:24px auto 0;font-size:13.5px;color:rgba(246,236,221,.6);font-style:italic}
+
+  .faq{max-width:720px;margin:0 auto}
+  details{border:1px solid var(--line);border-radius:13px;padding:4px 18px;margin-bottom:12px;background:rgba(255,255,255,.025)}
+  summary{cursor:pointer;padding:14px 0;font-weight:700;font-size:15.5px;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--cream)}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:'+';color:var(--gold-lt);font-size:22px;font-weight:400}
+  details[open] summary::after{content:'–'}
+  details p{padding:0 0 16px;font-size:14.5px;color:rgba(246,236,221,.82)}
+
+  .final{text-align:center;padding:56px 0 30px}
+  .final .crest{font-size:38px}
+  .final h2{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(30px,6vw,46px);color:#fff7ea;margin:8px 0 18px}
+  .final .btnrow{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+  footer{border-top:1px solid var(--line);margin-top:40px;padding:30px 0 50px;text-align:center;color:rgba(246,236,221,.55);font-size:13px}
+  footer .links{margin-bottom:10px}
+  footer a{color:var(--gold-lt);text-decoration:none;margin:0 8px}
+  footer .fine{font-size:12px;opacity:.8;margin-top:8px}
+  .sig{font-family:'Great Vibes',cursive;color:var(--gold);font-size:22px;margin-top:14px}
+
+  @media(max-width:680px){
+    .steps{grid-template-columns:1fr}
+    .feat{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a href="/tin/" aria-label="Tin Full of Trouble — all tins"><img class="hero-logo" src="the-court-of-21-logo.jpg" alt="Tin Full of Trouble — The Court of 21"></a>
+    <h1 class="title">Twenty-One</h1>
+    <div class="tagline">The Court of 21 — freshly legal</div>
+    <p class="hook">The pass-the-phone drinking game for the first legal night out. One phone, the whole crew, and a referee who takes bribes.</p>
+    <div class="hero-cta"><a href="#tiers" class="btn btn-primary">Crack the Tin →</a></div>
+    <div class="court-line">The Court of 21 is now in session.</div>
+  </div>
+</header>
+
+<div class="divider"></div>
+
+<div class="strip wrap">Twenty-one years of material. <b>One night</b> to use it.</div>
+
+<div class="divider"></div>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title">How It Works</h2>
+    <p class="sec-sub">No downloads. No accounts for your guests. Just pass the phone.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Seat the House</h3><p>One host opens the game, names the freshly legal, and adds everyone else. Guests need nothing — no app, no sign-up.</p></div>
+      <div class="step"><div class="n">2</div><h3>Draw &amp; Obey</h3><p>Flip a card and do what it says — <em>Birthday Roast</em>, Memory Lane, Truth or Sip, and the occasional <em>Sudden Death</em>. Then pass the phone.</p></div>
+      <div class="step"><div class="n">3</div><h3>Crown the Legend</h3><p>End the night and the finale hands out the awards — most sips, longest streak, chaos agent, and the Birthday Legend themselves.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title">What's in the Tin</h2>
+    <p class="sec-sub">Everything you need for a gloriously ill-advised night.</p>
+    <div class="feat">
+      <div class="f"><span class="ic">🃏</span><p><b>95+ cards</b> across 10 categories — Birthday Roast, Memory Lane, Sudden Death, Cursed, and more. The biggest tin on the shelf.</p></div>
+      <div class="f"><span class="ic">👑</span><p>The <b>Queen’s Decree</b> wheel — spin it when the night needs a ruling.</p></div>
+      <div class="f"><span class="ic">⭐</span><p>Rare <b>Royal Decree &amp; Queen’s Favor</b> cards that change everything.</p></div>
+      <div class="f"><span class="ic">🏆</span><p>A <b>“The House Has Spoken”</b> finale that crowns the Birthday Legend.</p></div>
+      <div class="f"><span class="ic">💧</span><p>Built-in <b>hydration breaks</b> — it’s their first legal night, not their last.</p></div>
+      <div class="f"><span class="ic">📱</span><p>Plays on <b>any phone, tablet, or laptop</b>. Open and go.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="tiers">
+  <div class="wrap">
+    <h2 class="sec-title">Crack the Tin</h2>
+    <p class="sec-sub">Same full game in both. The only question is how long you want the House open.</p>
+    <div class="tiers">
+      <div class="tier">
+        <h3>Sip</h3>
+        <div class="price">$24</div>
+        <div class="window">30 Days</div>
+        <p class="blurb">The complete Twenty-One deck — 95+ cards, the Queen’s Decree wheel, and the finale. Unlimited game nights for 30 days — covers the birthday and the weekend it turns into.</p>
+        <a class="btn btn-primary" href="https://checkout.sardinequeen.com/twenty-one-sip/">Crack the Tin →</a>
+      </div>
+      <div class="tier spill">
+        <div class="flag">3× the window</div>
+        <h3>Spill</h3>
+        <div class="price">$44</div>
+        <div class="window">90 Days</div>
+        <p class="blurb">The same complete game — yours for a full 90 days. For the crew with more than one twenty-first on the calendar.</p>
+        <a class="btn btn-primary" href="https://checkout.sardinequeen.com/twenty-one-spill/">Keep the Tin Open →</a>
+      </div>
+    </div>
+    <p class="same-note">Sip and Spill are the identical game — every card, every feature. No accounts for your guests, ever. Buy once, host as many nights as you like inside your window.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title">Questions, Answered</h2>
+    <div class="faq">
+      <details><summary>Do my guests need to download anything?</summary><p>Nope. One host opens the game and everyone plays from that one screen, pass-the-phone style. No app, no downloads, no accounts for guests.</p></details>
+      <details><summary>So only I log in?</summary><p>Exactly. You (the host) get a login at cellar.sardinequeen.com after purchase. Your guests just play — no sign-up required.</p></details>
+      <details><summary>How long do I have access?</summary><p>Sip gives you 30 days, Spill gives you 90 — counted from the day you buy. Host as many parties as you like inside your window.</p></details>
+      <details><summary>What's the difference between Sip and Spill?</summary><p>Nothing in the game itself — same 95+ cards, same Queen’s Decree wheel, same finale. Spill just keeps the Tin open three times longer (90 days instead of 30) for hosts with more than one party on the calendar.</p></details>
+      <details><summary>Will it work on my phone?</summary><p>Yes — any phone, tablet, or laptop with a browser. Nothing to install.</p></details>
+      <details><summary>Refunds?</summary><p>It's an instant digital product, so all sales are final. Not sure it's your crowd? Scroll up to <em>What's in the Tin</em> — that's the whole game, no hidden extras. Still unsure? Email the Queen before you buy and she'll tell you straight.</p></details>
+      <details><summary>Is there an age requirement?</summary><p>21+. It's a drinking game — please sip responsibly.</p></details>
+    </div>
+  </div>
+</section>
+
+<div class="final">
+  <div class="wrap">
+    <div class="crest">🎂</div>
+    <h2>Freshly legal. Freshly in trouble.</h2>
+    <div class="btnrow">
+      <a class="btn btn-primary" href="https://checkout.sardinequeen.com/twenty-one-sip/">Crack the Tin · $24 →</a>
+      <a class="btn btn-primary" href="https://checkout.sardinequeen.com/twenty-one-spill/">Keep the Tin Open · $44 →</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="https://sardinequeen.com/legal/terms/">Terms</a> ·
+      <a href="https://sardinequeen.com/legal/privacy/">Privacy</a> ·
+      <a href="https://sardinequeen.com/legal/refund/">Refund</a> ·
+      <a href="https://sardinequeen.com/legal/play-responsibly/">Play Responsibly</a>
+    </div>
+    <div>Questions? <a href="mailto:salty@thesardinequeen.com">salty@thesardinequeen.com</a></div>
+    <div class="fine">All sales final · Digital product · No refunds · 21+ · Please sip responsibly.</div>
+    <div class="fine">© 2026 Sardine Queen Games · Tin Full of Trouble</div>
+    <div class="sig">Long Live the Queen</div>
+  </div>
+</footer>
+
+</body>
+</html>
